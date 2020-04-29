@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="edit-area">
+            <div class="text-field-title">
+                <button type="button" id="addButton">+</button>
+                <div class="controls-panel">
+                    <button id="saveButton">Save</button>
+                    <div name="colorsDropdown" id="colorsDropdown" class="colors-dropdown"></div>
+                </div>
+            </div>
+            <textarea name="textField" id="textField" tabindex="0" placeholder="Enter text here"></textarea>
+        </div>
+        <div class="notes-area" id="notesArea">
+            <ul id="notesList"></ul>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
